@@ -1,0 +1,117 @@
+/* *************************
+Common css
+**************************** */
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+h2 {
+  font-size: 50px;
+  color: #502314;
+  font-weight: 900;
+  line-height: 1em;
+}
+
+h6 {
+  font-size: 25px;
+  color: #502314;
+  font-weight: 700;
+  line-height: 1.3em;
+}
+p {
+  font-weight: 400;
+  line-height: 1.5em;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.btn {
+  background-color: #d62300;
+  color: #fff;
+  border: 1px solid #d62300;
+  border-radius: 25px;
+}
+.btn:hover {
+  background-color: #e74c3c;
+}
+/* *************************
+Navbar area css
+**************************** */
+
+nav {
+  background-color: #ebe2d3;
+  /* background-color: ; */
+  font-weight: 500;
+}
+.navbar-brand {
+  font-weight: 800;
+  color: #502314;
+}
+.navbar-brand:hover {
+  color: #e74c3c;
+}
+nav li {
+  margin-left: 15px;
+}
+#main-menu ul li a.active {
+  color: #d62300;
+}
+
+/* *************************
+Slider area Css
+**************************** */
+#slider {
+  padding-top: 60px;
+}
+/* *************************
+About area Css
+**************************** */
+#about,
+#work,
+#service,
+#contactUs {
+  padding-top: 100px;
+}
+/* *************************
+Work area Css
+**************************** */
+#work {
+  background-color: #ebe2d3;
+}
+
+/* *************************
+Service area Css
+**************************** */
+#service img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+/* *************************
+Contact us area Css
+**************************** */
+#contactUs {
+  background: url("./image/4.jpg");
+}
+#contactUs #form-group {
+  background: #f4f4f4;
+  border-radius: 15px;
+}
+
+/* *************************
+Footer area Css
+**************************** */
+#footer ul li a {
+  text-decoration: none;
+  color: #262626;
+  font-weight: 500;
+}
+#footer form .btn {
+  border-radius: 0;
+}
+.social li {
+  display: inline-block;
+  padding: 7px;
+}
